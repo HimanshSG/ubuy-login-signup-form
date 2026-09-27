@@ -28,7 +28,7 @@ Just open `index.html` in browser.
 
 ## Live link
 
-https://HimanshSG.github.io/ubuy-login-form/
+https://himanshsg.github.io/ubuy-login-signup-form/
 
 ## Made by
 
