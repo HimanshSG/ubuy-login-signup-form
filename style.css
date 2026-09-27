@@ -335,15 +335,34 @@ body {
   .card {
     padding: 15px;
   }
+
   .auth-row {
     flex-direction: column;
+    gap: 10px;
   }
+
   .mode-switch {
-    width: 100%;
-    justify-content: space-around;
+    align-self: flex-end;
+    width: auto;
   }
+
+  .auth-row .field,
+  .otp-block,
+  .password-fields {
+    width: 100%;
+    flex: none;
+  }
+
   .social {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .social span {
+    width: 100%;
     text-align: center;
+    margin-top: 6px;
   }
 }
